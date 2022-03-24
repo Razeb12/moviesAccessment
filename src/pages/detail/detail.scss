@@ -72,6 +72,12 @@
             line-height: 1;
             color: white;
         }
+        .overview{
+            @include mobile{
+                color: white;
+                font-size: 1.4rem;
+            }
+        }
 
         .genres {
             & > * ~ * {
@@ -114,10 +120,4 @@
     &__title {
         margin-bottom: 1.5rem;
     }
-}
-
-iframe {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
 }
