@@ -22,9 +22,9 @@ const Home = props => {
         
             <div className="container">
                 <div className="section mb-3">
-                <div className="section mb-3">
+                
                 <MovieSearch category={props.category} keyword={keyword}/>
-            </div>
+           
             
             
                     <div className="section__header mb-2">
