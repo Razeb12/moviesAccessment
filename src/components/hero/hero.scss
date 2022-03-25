@@ -58,16 +58,19 @@
                 
 
                 @include tablet {
+                    margin-top: 50px;
                     font-size: 6rem;
                     text-align:center;
                     line-height: 100px;
                     font-weight: 700;
                 }
                 @include mobile {
+                    margin-top: 50px;
                     font-size: 4rem;
                     font-weight: 700;
                     text-align:center;
                     line-height: 65.46px;
+                   
                     
                 }
             }

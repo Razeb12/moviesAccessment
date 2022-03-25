@@ -34,6 +34,10 @@
         height: $header-shrink-height;
         background: #292929;
 
+        @include mobile{
+            height: $mobile-shrink-height
+        }
+
     }
 
     &__wrap {
